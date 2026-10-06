@@ -11,7 +11,7 @@ export const personal = {
   email: 'rafeysaleem66@gmail.com',
   phone: '+92 333 7463316',
   github: 'https://github.com/rafaysaleem0308',
-  linkedin: 'https://www.linkedin.com/in/rafey-saleem',
+  linkedin: 'https://www.linkedin.com/in/rafey-saleem-646360414?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   resumeUrl: '/Rafey__Resume.pdf',
   avatar: 'https://avatars.githubusercontent.com/u/119732562?v=4',
   stats: [
