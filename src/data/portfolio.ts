@@ -1,23 +1,22 @@
-import type { Project, SkillCategory, Experience, Education, LeadershipRole, NavLink } from '../types'
+import type { Project, SkillCategory, Experience, NavLink } from '../types'
 
 export const personal = {
   name: 'Rafey Saleem',
   title: 'Full-Stack Developer',
-  roles: ['Full-Stack Developer', 'MERN Developer', 'Flutter Developer', 'Software Engineer'],
-  tagline: 'Building scalable web applications, cross-platform mobile apps, and robust RESTful backends.',
+  roles: ['Full-Stack Developer', 'Flutter Developer', 'AI Engineer'],
+  tagline: 'Building scalable web applications, cross-platform Flutter apps, and practical AI-powered products.',
   summary:
-    'Computer Science graduate and full-stack developer with hands-on experience shipping production-grade MERN (React, Node.js, Express.js, MongoDB) applications and cross-platform Flutter apps. Built and deployed multi-service systems spanning REST APIs, AI-driven features, and admin dashboards. Strong foundation in DSA, OOP, and agile collaboration via Git/GitHub. Seeking a Full-Stack or MERN Developer role to build scalable, user-facing products.',
-  location: 'Lahore, Pakistan',
+    'Full-stack, Flutter, and AI engineer with hands-on experience building production web applications, cross-platform mobile apps, REST APIs, and AI-powered features. Skilled in React, Node.js, Flutter, Python, and modern data stores, with experience delivering user-facing products and collaborating across engineering teams.',
+  location: 'Manchester, United Kingdom',
   email: 'rafeysaleem66@gmail.com',
   phone: '+92 333 7463316',
   github: 'https://github.com/rafaysaleem0308',
   linkedin: 'https://www.linkedin.com/in/rafey-saleem-646360414?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   resumeUrl: '/Rafey__Resume.pdf',
-  avatar: 'https://avatars.githubusercontent.com/u/119732562?v=4',
   stats: [
     { label: 'GitHub Repos', value: '20+' },
     { label: 'Tech Stacks', value: '5+' },
-    { label: 'Years CS', value: '4' },
+    { label: 'Projects', value: '20+' },
     { label: 'Internships', value: '2' },
   ],
 }
@@ -27,7 +26,6 @@ export const navLinks: NavLink[] = [
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Education', href: '#education' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -36,7 +34,7 @@ export const projects: Project[] = [
     id: 'indielife',
     title: 'IndieLife — Cross-Platform Independent-Living Platform',
     description:
-      'Final Year Project at FAST-NUCES (Faculty-Supervised): 5-module independent-living platform covering meal planning, expense tracking, accommodation, local services, and safety, backed by a Node.js/Express/MongoDB REST API on Render with an AI expense planner using Flask and spaCy.',
+      'Five-module independent-living platform covering meal planning, expense tracking, accommodation, local services, and safety, backed by a Node.js/Express/MongoDB REST API on Render with an AI expense planner using Flask and spaCy.',
     longDescription:
       'Architected a 5-module Flutter app covering meal planning, expense tracking, accommodation, local services, and safety, backed by a Node.js, Express.js, and MongoDB REST API deployed on Render. Developed an AI-powered expense planner using Flask and spaCy, trained on real PKR restaurant data to deliver personalized budget recommendations.',
     tech: ['Flutter', 'Dart', 'Node.js', 'Express.js', 'MongoDB', 'Python', 'Flask', 'spaCy', 'React', 'Render'],
@@ -49,7 +47,6 @@ export const projects: Project[] = [
       'Backed by a high-performance Node.js, Express.js, and MongoDB REST API deployed on Render',
       'Developed an AI-powered expense planner using Flask and spaCy, trained on real PKR restaurant data to deliver personalized budget recommendations',
       'Engineered a React administrative portal for system management and user coordination',
-      'Final Year Project at FAST-NUCES — Faculty-Supervised',
     ],
     architectureHighlights: [
       '5-Module Flutter App',
@@ -571,7 +568,7 @@ export const experiences: Experience[] = [
     id: 'nextbridge',
     role: 'Trainee Software Engineer Intern',
     company: 'Nextbridge Ltd.',
-    location: 'Lahore, Pakistan',
+    location: 'Manchester, United Kingdom',
     period: 'Jun 2025 – Jul 2025',
     type: 'Internship',
     description: [
@@ -579,51 +576,5 @@ export const experiences: Experience[] = [
       'Collaborated with a 5+ engineer Agile team through Git-based code reviews and sprint planning to streamline internal tooling workflows.',
     ],
     tech: ['React.js', 'Node.js', 'Flutter', 'MongoDB', 'REST APIs', 'Git', 'Agile'],
-  },
-]
-
-export const education: Education[] = [
-  {
-    id: 'fast-nuces',
-    degree: 'BS Computer Science',
-    institution: 'FAST-NUCES, Chiniot-Faisalabad Campus',
-    location: 'Chiniot-Faisalabad, Pakistan',
-    period: '2022 – 2026',
-    status: 'completed',
-  },
-  {
-    id: 'pgc',
-    degree: 'Intermediate (Pre-Engineering)',
-    institution: 'Punjab Group of Colleges',
-    location: 'Rahim Yar Khan, Pakistan',
-    period: 'Completed',
-    status: 'completed',
-  },
-]
-
-export const leadershipRoles: LeadershipRole[] = [
-  {
-    id: 'president',
-    role: 'President',
-    organization: 'FAST E-Gaming Society — FAST-NUCES CFD',
-    period: '2025 – 2026',
-    description:
-      'Leading the university e-gaming society, organizing large-scale gaming tournaments, directing executive committees, and expanding campus e-sports engagement.',
-  },
-  {
-    id: 'gen-sec',
-    role: 'General Secretary',
-    organization: 'FAST E-Gaming Society — FAST-NUCES CFD',
-    period: '2024 – 2025',
-    description:
-      'Supervised operational execution, event logistics, inter-society coordination, and community management for the university gaming society.',
-  },
-  {
-    id: 'fifa-head',
-    role: 'FIFA Head',
-    organization: 'FAST E-Gaming Society — FAST-NUCES CFD',
-    period: '2023 – 2024',
-    description:
-      'Organized and managed all competitive FIFA tournament events, rule frameworks, player matchmaking brackets, and live stream setups.',
   },
 ]

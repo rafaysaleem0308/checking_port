@@ -59,15 +59,13 @@ src/
     ├── Experience.tsx
     ├── Projects.tsx       18 projects, search + filter
     ├── GitHubStats.tsx
-    ├── Education.tsx
-    ├── Leadership.tsx
     ├── Contact.tsx
     └── Footer.tsx
 ```
 
 ## Customization
 
-All content lives in `src/data/portfolio.ts` — edit projects, skills, experience, education, and personal info there.
+Portfolio content lives in `src/data/portfolio.ts` — edit projects, skills, experience, and personal info there.
 
 ## Tech Stack
 

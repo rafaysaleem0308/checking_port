@@ -7,8 +7,6 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import GitHubStats from './components/GitHubStats'
-import Education from './components/Education'
-import Leadership from './components/Leadership'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -32,8 +30,6 @@ export default function App() {
         <Experience />
         <Projects />
         <GitHubStats />
-        <Education />
-        <Leadership />
         <Contact />
       </main>
       <Footer />

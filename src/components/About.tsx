@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { MapPin, Code2, Server, Rocket, Users } from 'lucide-react'
+import { MapPin, Code2, Server, Rocket } from 'lucide-react'
 import { personal } from '../data/portfolio'
 
 const fadeUp = {
@@ -12,7 +12,6 @@ const highlights = [
   { icon: Code2, label: 'Full-Stack Web', desc: 'MERN stack & responsive UI/UX' },
   { icon: Server, label: 'Backend & APIs', desc: 'Node.js, Express, PostgreSQL, REST' },
   { icon: Rocket, label: 'Mobile Engineering', desc: 'Cross-platform Flutter apps' },
-  { icon: Users, label: 'Team Leadership', desc: 'Mobile Lead & Society President' },
 ]
 
 export default function About() {
@@ -40,33 +39,13 @@ export default function About() {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left — avatar + info */}
+          {/* Profile details */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-col items-center lg:items-start gap-6"
           >
-            <div className="relative">
-              <div className="w-48 h-48 rounded-3xl bg-gradient-to-br from-violet-600 to-cyan-500 p-1">
-                <img
-                  src={personal.avatar}
-                  alt="Rafey Saleem"
-                  className="w-full h-full object-cover rounded-[22px] bg-slate-900"
-                  onError={e => {
-                    const el = e.currentTarget
-                    el.style.display = 'none'
-                    if (el.parentElement) {
-                      el.parentElement.innerHTML = `<div class="w-full h-full rounded-[22px] bg-slate-800 flex items-center justify-center text-6xl font-bold text-violet-400">RS</div>`
-                    }
-                  }}
-                />
-              </div>
-              <div className="absolute -bottom-3 -right-3 bg-violet-600 rounded-2xl px-3 py-1.5 text-xs font-bold text-white shadow-lg">
-                FAST-NUCES 🎓
-              </div>
-            </div>
-
             <div className="space-y-3 text-center lg:text-left">
               <h3 className="text-2xl font-bold text-slate-100">{personal.name}</h3>
               <p className="text-violet-400 font-medium">{personal.title}</p>
@@ -75,7 +54,7 @@ export default function About() {
                 {personal.location}
               </div>
               <div className="flex flex-wrap gap-2 justify-center lg:justify-start pt-2">
-                {['Full-Stack', 'MERN Stack', 'Flutter', 'REST APIs', 'PostgreSQL / Mongo'].map(tag => (
+                {['Full-Stack', 'Flutter', 'AI Engineering', 'REST APIs', 'React / Node.js'].map(tag => (
                   <span key={tag} className="badge bg-violet-500/10 text-violet-300 border border-violet-500/20">
                     {tag}
                   </span>
@@ -129,10 +108,10 @@ export default function About() {
               className="card p-6 space-y-3 text-slate-400 text-sm leading-relaxed"
             >
               <p>
-                I'm a Computer Science graduate from <span className="text-violet-400 font-medium">FAST-NUCES</span> with a solid foundation in software engineering principles, Data Structures &amp; Algorithms (DSA), Object-Oriented Programming (OOP), and database architecture.
+                I build full-stack web applications, cross-platform Flutter apps, and AI-powered features, with a focus on practical software that solves real user needs.
               </p>
               <p>
-                Through software internships at <span className="text-violet-400 font-medium">Tefteq Software</span> (as Mobile Development Project Lead) and <span className="text-violet-400 font-medium">Nextbridge Ltd.</span> (as Trainee Software Engineer Intern), I've gained practical experience designing RESTful APIs, building cross-platform Flutter applications, and shipping production-ready MERN stack features.
+                My experience includes designing REST APIs, building mobile applications, and shipping production-ready web features with React, Node.js, Flutter, and Python.
               </p>
             </motion.div>
           </div>

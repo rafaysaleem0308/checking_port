@@ -43,24 +43,3 @@ export interface Experience {
   relatedProjects?: { id: string; title: string }[]
 }
 
-export interface Education {
-  id: string
-  degree: string
-  institution: string
-  location: string
-  period: string
-  status: 'current' | 'completed'
-}
-
-export interface LeadershipRole {
-  id: string
-  role: string
-  organization: string
-  period: string
-  description: string
-}
-
-export interface NavLink {
-  label: string
-  href: string
-}

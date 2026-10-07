@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <p className="text-2xl font-extrabold gradient-text mb-2">Rafey Saleem</p>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Full-Stack Developer &amp; AI/ML Engineer based in Lahore, Pakistan.
+              Full-Stack, Flutter &amp; AI Engineer based in {personal.location}.
               Building scalable, user-facing products.
             </p>
             <div className="flex items-center gap-3 mt-4">

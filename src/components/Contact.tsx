@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
             <h3 className="text-slate-100 font-semibold text-lg mb-2">Open to new roles</h3>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xl mx-auto">
-              Actively seeking Full-Stack Developer, MERN Developer, AI Engineer, or Flutter Developer roles.
+              Open to Full-Stack Developer, Flutter Developer, and AI Engineer opportunities.
               Also open to freelance projects and collaborations.
             </p>
             <div className="mt-4 flex items-center justify-center gap-2 text-sm">

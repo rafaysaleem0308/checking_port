@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { ArrowDown, Github, Linkedin, Mail, Download, ExternalLink } from 'lucide-react'
 import { personal } from '../data/portfolio'
 
-const ROLES = ['Full-Stack Developer', 'MERN Developer', 'Flutter Developer', 'Software Engineer']
+const ROLES = ['Full-Stack Developer', 'Flutter Developer', 'AI Engineer']
 
 function useTypewriter(words: string[]) {
   const [displayed, setDisplayed] = useState('')
