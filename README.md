@@ -74,3 +74,4 @@ Portfolio content lives in `src/data/portfolio.ts` — edit projects, skills, ex
 - Tailwind CSS 3
 - Framer Motion 11
 - Lucide React (icons)
+
